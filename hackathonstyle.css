@@ -1,0 +1,259 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+:root {
+    font-size: 16px;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: white;
+
+}
+
+.main {
+    position: relative;
+    height: 90%;
+    width: 100%;
+    border: 2px solid red;
+    background-image: linear-gradient(to right, #3CB9FC, #8A2BE2,#120052);
+}
+
+.head {
+    background-image: url("https://techcrunch.com/wp-content/uploads/2015/04/codecode.jpg?w=1390&crop=1");
+    border: 2px solid red;
+    /* align-items: center; */
+}
+
+#events {
+    /* background-image: linear-gradient(rgb(253, 151, 168), #8A2BE2,pink); */
+    background-color: #8A2BE2;
+    display: block;
+    height: 500px;
+    width: 500px;
+    margin: 12px auto;
+    /* border: 2px solid red; */
+    border-radius: 50%;
+    box-shadow: -5px -6px 10px #120052 inset;
+    ;
+    
+}
+
+.nav {
+    background-image: linear-gradient(#8A2BE2, #3CB9FC);
+    /* background-color: #B537F2; */
+    /* border: 2px solid red; */
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    padding: 1rem;
+    text-decoration: none;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 6px 10px #3CB9FC;
+
+}
+
+   
+    
+
+.nav:hover{
+    transform: rotate(5deg);
+    transform: skew(10deg);
+}
+
+.title h1 {
+    
+    margin: 120px;
+}
+
+.nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#home {
+    position: relative;
+    left: 10rem;
+    top: 0.2rem;
+}
+
+#rules {
+    position: relative;
+    left: 2.7rem;
+    bottom: 1rem;
+}
+
+#schedule {
+    position: relative;
+    left: 0.05rem;
+    top: 1rem;
+}
+
+#theme {
+    position: relative;
+    top: 2.8rem;
+    left: 3.1rem;
+
+}
+
+#chosen {
+    position: relative;
+    padding: 4rem;
+    left: 9.5rem;
+    top: -14rem;
+  
+}
+
+#team {
+    position: relative;
+    left: 10rem;
+    top: -10.3rem;
+}
+
+#gallery {
+    position: relative;
+    left: 18.5rem;
+    top: -17.4rem;
+}
+
+#faq {
+    position: relative;
+    left: 24rem;
+    top: -30rem;
+}
+
+#sponsor {
+    position: relative;
+    left: 23.7rem;
+    top: -44rem;
+}
+
+#about {
+    position: relative;
+    left: 19rem;
+    top: -56rem;
+}
+
+#chosen h1 {
+    text-align: center;
+}
+
+.secnav {
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 2px;
+    column-gap: 2px;
+    /* margin: 12px auto; */
+}
+#thirdnav{
+    margin-left: 20rem;
+    /* border: 2px solid red; */
+    display: flex;
+    height: 20rem;
+    width: 60rem;
+    border-radius: 20px;
+    box-shadow: 5px 6px 10px white;
+    
+}
+#thirdnavbtn{
+    display: grid;
+    /* grid-template-rows: repeat(1,1fr); */
+    height: 20rem;
+    /* border: 2px solid red; */
+    max-width: 10rem;
+    min-width: 10rem;
+    box-sizing: border-box;
+    
+}
+#thirdnavbtn button{
+    color: #120052;
+    width: 10rem;
+    /* margin-top: 3rem;
+    margin-bottom: 3rem; */
+}
+.btn{
+    background-color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-radius: 10px;
+}
+#textbox{
+    margin-left: 10rem;
+
+}
+.title{
+    text-align: center;
+}
+
+.allnavdetails {
+    /* border: 2px solid red; */
+    height: 20rem;
+    width: 20rem;
+    margin: 20px;
+    border-radius: 10%;
+    word-wrap: break-word;
+    text-align: center;
+    box-shadow: 5px 7px white;
+    /* box-sizing: border-box; */
+}
+
+.membernav {
+    border: 2px solid red;
+    display: flex;
+}
+
+.memberimage {
+    border: 2px solid red;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 70px;
+    margin-right: 90px;
+}
+
+.photos {
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    row-gap: 2px;
+    column-gap: 2px;
+    /* align-items: center; */
+}
+
+.galleryimage {
+    border: 2px solid red;
+    height: 150px;
+    width: 150px;
+}
+
+#first {
+    border: 2px solid red;
+}
+
+#second {
+    border: 2px solid red;
+}
+
+#third {
+    border: 2px solid red;
+}
+#aboutnav{
+background-color: darkgrey;
+height: 150px;
+text-align: center;
+}
